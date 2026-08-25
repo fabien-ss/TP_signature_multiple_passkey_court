@@ -1,0 +1,56 @@
+# ===================== Backend (Django / Python) =====================
+backend/.venv/
+backend/venv/
+backend/env/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/db.sqlite3
+backend/db.sqlite3-journal
+backend/media/
+backend/staticfiles/
+backend/.python-version
+backend/*.log
+backend/.env
+backend/.coverage
+backend/htmlcov/
+
+# ===================== Mobile (React Native / Expo) =====================
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/npm-debug.*
+mobile/yarn-debug.*
+mobile/yarn-error.*
+mobile/*.jks
+mobile/*.p8
+mobile/*.p12
+mobile/*.key
+mobile/*.mobileprovision
+mobile/.env
+mobile/.env.local
+
+# Dossiers natifs générés par `expo prebuild` (régénérables, on ne les versionne pas)
+mobile/android/
+mobile/ios/
+
+# Metro / bundler
+mobile/.metro-health-check*
+mobile/*.jsbundle
+
+# ===================== Général =====================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Éditeurs / IDE
+.vscode/
+.idea/
+*.iml
+
+# Archives de livraison
+*.zip
